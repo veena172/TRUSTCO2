@@ -1,0 +1,162 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Body Background */
+body {
+  background: url("white.png") no-repeat center center/cover;
+  color: #1a1a1a;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Buttons */
+.buttons .login {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.buttons .signup {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons .signup:hover {
+  background: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero h1 span {
+  color: #007bff;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-buttons .get-started,
+.cta-buttons .video {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-buttons .get-started {
+  background: #007bff;
+  color: white;
+}
+
+.cta-buttons .get-started:hover {
+  background: #0056b3;
+}
+
+.cta-buttons .video {
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.cta-buttons .video:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Trustpilot Rating */
+.rating {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* User Images */
+.user-images {
+  margin-top: 30px;
+}
+
+.user-images img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 8px;
+  border: 3px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: #0056b3;
+}
